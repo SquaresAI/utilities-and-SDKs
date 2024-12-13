@@ -1,0 +1,41 @@
+Folder PATH listing for volume DDD
+Volume serial number is 3802-6770
+D:.
+|   docker-compose.yml
+|   Dockerfile
+|   list.bat
+|   README.md
+|   requirements.txt
+|   structura_directoare.txt
+|   
++---config
+|       development.env
+|       production.env
+|       sdk_config.yaml
+|       test.env
+|       
++---docs
+|       cli_guide.md
+|       integration_examples.md
+|       sdk_overview.md
+|       
++---samples
+|       cli_usage_sample.py
+|       sdk_usage_sample.py
+|       
+\---src
+    +---cli_tools
+    |       dataset_upload.py
+    |       model_management.py
+    |       transaction_tracking.py
+    |       
+    +---sdk
+    |       authentication.py
+    |       data_upload.py
+    |       model_integration.py
+    |       transaction_api.py
+    |       
+    \---utils
+            config_parser.py
+            logging_utils.py
+            
